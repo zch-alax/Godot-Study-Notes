@@ -42,3 +42,19 @@ match param:
   _:
     print("mismatching")
 ```
+
+# 循环语句
+## for
+```GDScript
+for i in range(20):
+  if i == 10:
+    break
+  print(i)
+```
+
+## while
+```GDScript
+var i = 10
+while i != 0:
+ i -= 1
+```
