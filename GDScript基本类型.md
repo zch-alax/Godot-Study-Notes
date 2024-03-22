@@ -36,6 +36,9 @@ match param:
     print("1")
   2:
     print("2")
+    continue # 表示继续匹配
   3:
     print("3")
+  _:
+    print("mismatching")
 ```
