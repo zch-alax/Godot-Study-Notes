@@ -17,3 +17,25 @@ func test(parm1, parm2):
   # 执行代码
   return x
 ```
+# 条件语句
+## if语句
+```GDScript
+if(condition1):
+  # 当condition1为true时执行代码
+else if(condition2):
+  # 当condition1为false且condition2为true时执行代码
+else:
+  # 当condition1与condition2均为false时执行代码
+```
+
+## match语句 (相当于switch)
+```GDScript
+var param = 3
+match param:
+  1:
+    print("1")
+  2:
+    print("2")
+  3:
+    print("3")
+```
