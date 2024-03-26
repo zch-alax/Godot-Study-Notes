@@ -58,3 +58,15 @@ var i = 10
 while i != 0:
  i -= 1
 ```
+
+# 静态变量与方法
+## 静态变量
+```GDScript
+const ANSWER = 12
+```
+
+## 静态方法
+```GDScript
+static func getANSWER():
+  return ANSWER
+```
