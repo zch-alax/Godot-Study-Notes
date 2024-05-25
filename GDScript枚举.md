@@ -10,4 +10,15 @@ func _ready():
         print("You are not welcome here.")
     else:
         print("Welcome!")
+
+    # 相当于swith	
+    match unit_alignment:
+        Alignment.ALLY:
+            print("Hello!Friend!")
+        Alignment.NEUTRAL:
+            print("Hello!")
+        Alignment.ENEMY:
+            print("KILL YOU!")
+        _:
+            print("WHO ARE YOU?")
 ```
